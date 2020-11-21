@@ -1,6 +1,3 @@
-package org.jenkins
-
-
 def Build(type, command){
   def buildTools = ["mvn": "Maven", "ant": "Ant", "gradle": "Gradle", "npm": "Npm"]
   
